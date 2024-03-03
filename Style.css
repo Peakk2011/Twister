@@ -110,12 +110,16 @@ body.dark {
 
 @font-face {
   font-family: SATO;
-  src: url(/Font/Satoshi-Bold.ttf);
+  src: url(/Font/Satoshi-Bold.ttf) format('ttf');
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: SFPRO;
-  src: url(./Font/SF-Pro-Display-Semibold.otf);
+  src: url(./Font/SF-Pro-Display-Semibold.otf) format('otf');
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
@@ -154,7 +158,9 @@ body.dark {
 
 @font-face {
   font-family: Segoe UI Varible;
-  src: url(./Font/SegoeUIVF.ttf);
+  src: url(./Font/SegoeUIVF.ttf) format('ttf');
+  font-style: normal;
+  font-weight: normal;
 }
 
 /* @font-face {
